@@ -1,7 +1,10 @@
 /* ==== Var For Bootstrap ==== */
 $Bg-WhiteLight: hsl(60, 33%, 94%) !important; // #F5F5EB
 $Bg-BlackDark: hsl(0, 0%, 7%) !important;     // #121212
-$Bg-GreyDark: hsl(0, 0%, 12%) !important;     // #1F1F1F
+$Bg-Scroll: hsl(0, 0%, 12%) !important;     // #1F1F1F
+
+$Glass-Light: rgba(26, 26, 26, 0.6);
+$Glass-Dark: hsla(0, 0%, 7%, 0.6);
 
 $Bdr-Black: #000 !important;
 $Bdr-White: #FFF !important;
@@ -9,13 +12,13 @@ $Bdr-White: #FFF !important;
 $Titl-White: #FFF !important;
 $Titl-Black: #000 !important;
 
-$Tx-White: #F8F9FABF !important;
+$Tx-White: hsl(0, 0%, 82%) !important; // #D1D1D1
 $Tx-Black: #08090AE0 !important;
 
 $lk-CyanLight: hsl(190, 100%, 50%) !important;  // #00D5FF
 $lk-PurpleLight: hsl(250, 90%, 40%) !important; // #290AC2
 $lk-GreyLight: #6C757D !important;
-$lk-WhiteLight: #F8F9FABF !important;
+$lk-WhiteLight: hsl(0, 0%, 82%); // #D1D1D1 !important; // #C1C2C3
 
 /* ==== My Variables ==== */
 $PrimaryMain:     hsl(0, 0%, 10%);

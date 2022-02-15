@@ -4,13 +4,13 @@
 
 
 /* ==== Scrollbar ==== */
-::-webkit-scrollbar {width: 1.2rem;}
+::-webkit-scrollbar {width: .75rem;}
 ::-webkit-scrollbar-thumb {
   background: $lk-CyanLight;
   border-radius: 2px;
 }
 ::-webkit-scrollbar-track {
-  background: $Bg-GreyDark;
+  background: $Bg-Scroll;
   box-shadow: inset 2px 2px 2px 0 hsla(0, 0%, 96%, .2);
 }
 
@@ -23,6 +23,13 @@
   z-index: -1;
 }
 
+/* ==== Colored Link ==== */
+.link-info {
+  color: $lk-WhiteLight;
+  transition: color .15s ease-in-out;
+  &:hover {color: $lk-CyanLight;}
+}
+
 
 /* ==== Default Theme ==== */
 @media (prefers-color-scheme: light) {
@@ -33,6 +40,7 @@
   h1,h2,h3,h4,h5,h6 {
     color: $Titl-Black;
   }
+  .Glass {background: $Glass-Light;}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,10 +48,10 @@
     color: $Tx-White;
     background: $Bg-BlackDark;
   }
-  
   h1,h2,h3,h4,h5,h6 {
     color: $Titl-White;
   }
+  .Glass {background: $Glass-Dark;}
 }
 
 

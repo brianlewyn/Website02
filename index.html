@@ -17,7 +17,7 @@
 
   <!-- My Styles CSS -->
   <link rel="stylesheet" href="assets/css/A01-Start.css">
-  <link rel="stylesheet" href="assets/css/A02-Navbar.css">
+  <link rel="stylesheet" href="assets/css/A02-Navbar&CoverPage.css">
 
   <title>Study habits</title>
 
@@ -25,10 +25,64 @@
 
 <body>
 
-  <!-- Particles ID -->
+  <!-- →Particles ID -->
   <div id="particles-js"></div>
 
-  <h1>Hábitos de Estudio</h1>
+  <!-- →NavBar -->
+  <header class="sticky-top">
+    <nav class="container-fluid navbar navbar-dark bg-dark px-2 px-sm-4">
+      
+      <a class="navbar-brand py-0 me-0" href="index.html">
+        <img src="assets/img/StudyWeb.svg" class="d-inline-block" alt="Img:StudyWeb" height="38" aria-label="Logo:StudyWeb">
+        <div class="d-none d-sm-inline-block align-middle">StudyWeb</div>
+      </a>
+
+      <ul class="nav">
+        <li class="nav-item px-2 py-1">
+          <a class="nav-link p-0" href="#">Inicio</a>
+        </li>
+        <li class="nav-item px-2 py-1">
+          <a class="nav-link p-0" href="#">Somos</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- →FrontPage -->
+  <div class="py-4 px-2 px-sm-4 px-xl-5">
+    <div class="container-fluid">
+      <div class="row overflow-hidden align-items-center">
+
+        <div class="col-12 col-md-6 order-md-2">
+          <img src="assets/img/Work-Time.svg" alt="Work-Time" class="img-fluid mb-5 mb-md-0">
+        </div>
+        
+        <div class="col-12 col-md-6 order-md-1 text-center text-md-start">
+          <div class="mb-4 text-nowrap Glass">
+            <h1 class="display-3 m-0">Hábitos de Estudio</h1>
+            <div class="SchoolName text-uppercase">Escuela de Bachilleres Veracruz</div>
+          </div>
+            
+          <div class="mb-4 Glass">
+            <div>Mtro. Ángel Domínguez Cañedo</div>
+            <div>Alumnos:</div>
+            <ul class="mb-0 ps-0 ps-md-4 Authors">
+              <li>Mejía Mora Brayan #11</li>
+              <li>Sangabriel Jiménez Hadara #13</li>
+            </ul>
+          </div>
+
+          <div class="Glass">
+            09/ Dic/ 2021
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
   
   <!-- Bootstrap JS Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
